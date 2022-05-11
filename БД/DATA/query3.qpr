@@ -1,0 +1,9 @@
+SELECT Sales.saledate, Sales.idemployee;
+ FROM ;
+     data1!sales
+     
+ SELECT idemployee, saledate FROM Sales WHERE saledate BETWEEN {^2019/9/8} and {^2020/9/8};
+ AND NOT EMPTY(Sales.saledate)  
+ 
+ 
+

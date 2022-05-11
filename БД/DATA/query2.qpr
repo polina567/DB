@@ -1,0 +1,7 @@
+SELECT Sales.idcustomer, Sales.saledate, Sales.idcar;
+ FROM ;
+     data1!sales
+SELECT Sales.idcustomer As NomCus, COUNT(Sales.idcar) As KolCar FROM Sales Where NOT Empty(Sales.saledate) Group by Sales.idcustomer into cursor t1
+
+SELECT Sales.*,t1.KolCar from Sales,t1 Where (Sales.idcustomer=t1.NomCus AND KolCar>1) AND Sales.saledate between {^2018/12/4} and {^2020/12/04};
+AND NOT EMPTY(Sales.saledate)

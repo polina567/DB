@@ -1,0 +1,5 @@
+SELECT Cars.idcar, Cars.brand, Cars.model, Cars.country, Cars.price;
+ FROM ;
+     data1!cars
+
+SELECT * FROM Cars WHERE Cars.price>All(SELECT Cars.price FROM Cars WHERE Cars.country='Япония')

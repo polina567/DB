@@ -1,0 +1,10 @@
+SELECT Cars.country, Cars.equipment;
+ FROM ;
+     data1!cars
+     
+	SELECT DISTINCT country FROM Cars AS baz_eq WHERE equipment='Базовая' AND EXISTS (SELECT country FROM Cars WHERE equipment='Премиум' AND country=baz_eq.country)
+      
+	  
+      
+      
+      	

@@ -1,0 +1,34 @@
+SELECT Sales.idemployee AS nompos, Cars.price AS stoimpos,;
+  Cars.price AS price;
+ FROM ;
+     Sales,;
+    Cars;
+ WHERE  Sales.idcar = Cars.idcar;
+   AND  NOT (EMPTY(Sales.saledate) );
+ GROUP BY Sales.idemployee, Cars.price;
+ INTO CURSOR t1  
+
+SELECT t1.NomPos, t1.Price FROM t1 WHERE t1.Price>=(SELECT AVG(t1.StoimPos) FROM t1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+ 

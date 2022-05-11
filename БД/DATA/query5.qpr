@@ -1,0 +1,13 @@
+SELECT Sales.idemployee, Cars.price;
+ FROM ;
+     Cars,;
+    Sales;
+ WHERE  Sales.idcar = Cars.idcar;
+   AND  Cars.price >= ALL (SELECT Cars.price FROM Cars)
+
+
+
+
+
+
+

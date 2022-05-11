@@ -1,0 +1,13 @@
+
+
+SELECT DISTINCT Cars.*, Customers.city;
+ FROM ;
+     Cars,;
+    Sales,;
+    Customers;
+ WHERE ( (  Cars.idcar = Sales.idcar;
+   AND  Customers.idcustomer = Sales.idcustomer );
+   AND  Customers.city <> ( "Москва" ) );
+   AND  Cars.idcar NOT IN (SELECT Cars.idcar FROM Cars, Sales, Customers WHERE Cars.idcar=Sales.idcar AND Customers.idcustomer=Sales.idcustomer AND Customers.city='Москва')
+
+	

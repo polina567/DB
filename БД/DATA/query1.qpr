@@ -1,0 +1,6 @@
+SELECT Cars.idcar, Cars.brand, Cars.model, Cars.delivery;
+ FROM ;
+     data1!cars
+ SELECT a.idcar as id1, b.idcar as id2, a.brand, a. model, b.brand, b.model, a.delivery;
+ FROM s As a, s As b;
+ WHERE a.delivery=b.delivery AND a.idcar>b.idcar
